@@ -1,0 +1,194 @@
+
+a{
+    text-decoration: none; 
+}
+
+header {
+    text-align: center; 
+    margin-top: 1.5em; 
+}
+header h1{
+    font-family: "leitura", sans-serif; 
+    font-size: 3.4em; 
+}
+header img{ 
+    width: 20em;
+}
+
+.social{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 2em; 
+}
+.social img{
+    margin: 1em;
+    height: 2em; 
+    width: 2em; 
+    opacity: .3;
+}
+.social img:hover{ 
+    opacity: .8; 
+}
+
+.work{
+    margin-left: 15em; 
+    margin-right: 15em;
+    margin-bottom: 3em; 
+    padding-top: 7em; 
+    padding-bottom: 7em; 
+    text-align: center; 
+    background-color: white;
+    border: .2em solid black;
+    border-radius: 20px; 
+
+}
+.activities{
+    display: inline-block; 
+    margin-bottom: 3em; 
+    padding-bottom: 7em; 
+    padding-top: 7em; 
+    text-align: center; 
+    background-color: white;
+    border: .2em solid black;
+    border-radius: 20px; 
+    opacity: .8; 
+}
+
+.skill{
+    display: inline-block; 
+    text-align: center; 
+    margin-bottom: 2em; 
+    padding-bottom: 1.5em; 
+    padding-top: 1.5em;
+    width: 10.2em; 
+    text-align: center; 
+    background-color: white;
+    border: .2em solid black;
+    border-radius: 20px; 
+    opacity: .8; 
+    margin-right: 4em; 
+}
+
+#first{
+    margin-left: 15em; 
+}
+#last{
+    margin-right:15em;  
+}
+
+
+
+#talkdesk{
+    background: url(../images/work/talkdesk.png); 
+    background-size: 20em; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+#talkdesk:hover,
+#talkdesk:focus{
+    background: url(../images/work/talkdesk:onhov:white.png); 
+    background-color: black; 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    transform: scale(1.1); 
+    transition-duration: .3s; 
+
+}
+
+#covfefe{
+    background: url(../images/work/covfefe.png); 
+    background-size: 22em; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+#covfefe:hover,
+#covfefe:focus{
+    background: url(../images/work/Covfefeonhov.png); 
+    background-color: black; 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    transform: scale(1.1); 
+    transition-duration: .3s;  
+}
+
+#shapeShifter{
+    background: url(../images/work/shape-shifter.png); 
+    background-size: 22em; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+#shapeShifter:hover,
+#shapeShifter:focus{
+    background: url(../images/work/ShapeShifterOnhov.png); 
+    background-color: black; 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    transform: scale(1.1); 
+    transition-duration: .3s;
+}
+
+#droplet{
+    background: url(../images/work/droplet.png); 
+    background-size: 10em; 
+    background-repeat: no-repeat; 
+    background-position: center;
+}
+#droplet:hover,
+#droplet:focus{
+    background: url(../images/work/DropletOnhov.png); 
+    background-color: black; 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    transform: scale(1.1); 
+    transition-duration: .3s;
+}
+
+
+#hillel{
+    background: url(../images/work/hillel.png); 
+    background-size: 10em; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    float: left; 
+    margin-left: 15em;
+    width: 25em; 
+}
+#hillel:hover, 
+#hillel:focus{
+    background-color: black; 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    transform: scale(1.1); 
+    transition-duration: .3s;
+}
+
+#aepi{
+    background: url(../images/work/aepi.png); 
+    background-size: 10em; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    float: right; 
+    margin-right: 15em; 
+    width: 25em; 
+}
+#aepi:hover, 
+#aepi:focus{
+    background-color: black; 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    transform: scale(1.1); 
+    transition-duration: .3s;
+}
+
+
+footer{
+    font-family: helvetica, serif; 
+    font-size: 1em; 
+    text-align: center; 
+}
